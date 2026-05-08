@@ -1,2 +1,2 @@
-# stupid-idiot-blog
-Stupid idiot blog
+# Hacker things
+Hacker things
