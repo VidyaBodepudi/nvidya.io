@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Blog | Hacker Edition</title>
+    <meta name="description" content="Personal blog and portfolio featuring a matrix hacker theme.">
+    <link rel="stylesheet" href="style.css?v=8">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Sidebar / Navigation -->
+    <aside class="sidebar">
+        <canvas id="matrix-canvas"></canvas>
+        <div class="sidebar-content">
+            <div class="profile">
+                <img src="https://avatars.githubusercontent.com/u/9919?s=280&v=4" alt="Profile Picture" class="avatar">
+                <h1 class="glitch" data-text="Your Name">Vidya Bodepudi</h1>
+                <p class="role">&gt; Security Researcher | AI Enthusiast | Open Source Advocate</p>
+            </div>
+            <nav class="nav-links">
+                <a href="#home" class="active"><span class="prefix">~/</span>home</a>
+                <a href="#projects"><span class="prefix">~/</span>projects</a>
+                <a href="#blog"><span class="prefix">~/</span>blog</a>
+                <a href="#contact"><span class="prefix">~/</span>contact</a>
+            </nav>
+            <div class="socials">
+                <a href="#">[github]</a>
+                <a href="#">[linkedin]</a>
+                <a href="#">[twitter]</a>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="content">
+
+        <!-- Home Section -->
+        <section id="home" class="section">
+            <div class="hero">
+                <h2 class="typing-effect">Initializing system...</h2>
+                <p class="subtitle">Welcome to my digital garden. I build secure systems and explore the depths of
+                    cyberspace.</p>
+            </div>
+
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <span class="btn red"></span>
+                    <span class="btn yellow"></span>
+                    <span class="btn green"></span>
+                    <span class="title">guest@hacker-blog:~</span>
+                </div>
+                <div class="terminal-body">
+                    <p><span class="prompt">guest@hacker-blog:~$</span> cat whoami.txt</p>
+                    <p class="output">I am a passionate software developer focusing on scalable web applications and
+                        cybersecurity. When I'm not coding, you can find me reverse engineering software or playing
+                        CTFs.</p>
+                    <p><span class="prompt">guest@hacker-blog:~$</span> ./show_skills.sh</p>
+                    <p class="output text-green">
+                        > Rust, Go, Python<br>
+                        > Penetration Testing, Cryptography<br>
+                        > Linux Systems, Networking
+                    </p>
+                    <p><span class="prompt">guest@hacker-blog:~$</span> <span class="cursor">_</span></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2><span class="text-green">#</span> Featured Projects</h2>
+            <div class="grid">
+                <article class="card">
+                    <div class="card-header">
+                        <h3>Vapor Compression</h3>
+                        <span class="badge">Rust</span>
+                    </div>
+                    <p>A high-performance prompt compression framework using advanced information-theoretic
+                        augmentations for LLM inference.</p>
+                    <a href="#" class="card-link">View Source &rarr;</a>
+                </article>
+                <article class="card">
+                    <div class="card-header">
+                        <h3>Chaos Goblin</h3>
+                        <span class="badge">Go</span>
+                    </div>
+                    <p>Agentic security architecture platform with dual-frame Persistent Mischief data structures and
+                        gRPC syncing.</p>
+                    <a href="#" class="card-link">View Source &rarr;</a>
+                </article>
+                <article class="card">
+                    <div class="card-header">
+                        <h3>ID OS</h3>
+                        <span class="badge">SvelteKit</span>
+                    </div>
+                    <p>Open-source identity platform integrating enterprise-grade features like SAML/OIDC SSO and
+                        machine-to-machine identity.</p>
+                    <a href="#" class="card-link">View Source &rarr;</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog" class="section">
+            <h2><span class="text-green">#</span> Latest Logs</h2>
+            <div class="post-list">
+                <a href="#" class="post-item">
+                    <span class="post-date">2026-05-07</span>
+                    <span class="post-title">Architecting AI-Native Version Control</span>
+                </a>
+                <a href="#" class="post-item">
+                    <span class="post-date">2026-05-05</span>
+                    <span class="post-title">Security Tokenomics: Asymmetric Warfare</span>
+                </a>
+                <a href="#" class="post-item">
+                    <span class="post-date">2026-04-29</span>
+                    <span class="post-title">Synthesizing the BNSI Research Paper</span>
+                </a>
+                <a href="#" class="post-item">
+                    <span class="post-date">2026-04-25</span>
+                    <span class="post-title">Architecting Genomic Data Compression</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2><span class="text-green">#</span> Establish Connection</h2>
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <span class="btn red"></span>
+                    <span class="btn yellow"></span>
+                    <span class="btn green"></span>
+                    <span class="title">secure-channel:~</span>
+                </div>
+                <div class="terminal-body contact-body">
+                    <p class="output">Initiating secure handshake...</p>
+                    <p class="output">Connection established. Send payload to:</p>
+                    <a href="mailto:hello@example.com" class="email-link">hello@example.com</a>
+                    <p class="output mt-2">PGP Key ID: <span class="text-green">0x0A1B2C3D4E5F6G7H</span></p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js?v=8"></script>
+</body>
+
+</html>
