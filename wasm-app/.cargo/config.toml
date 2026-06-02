@@ -1,0 +1,4 @@
+[build]
+target = "wasm32-unknown-unknown"
+# Place target directory outside OneDrive to avoid file-locking conflicts
+target-dir = "C:\\Users\\vbode\\.cargo\\nvidya-target"

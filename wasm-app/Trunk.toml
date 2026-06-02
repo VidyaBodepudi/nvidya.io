@@ -1,0 +1,11 @@
+[build]
+# Output directory for production builds
+dist = "dist"
+
+[watch]
+# Files to watch for hot-reload
+watch = ["src", "index.html", "style"]
+
+[serve]
+address = "127.0.0.1"
+port = 8080
